@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+for i in /root/build/etc/service/*; do
+	service=$(basename $i)
+	install -m 755 -o root -g root -d /etc/service/${service}
+	install -m 755 -o root -g root -p -t /etc/service/${service} /root/build/etc/service/${service}/*
+done

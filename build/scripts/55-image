@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -e
+set -u
+set -x
+export DEBIAN_FRONTEND=noninteractive
+
+git config --global user.email "root@localhost"
+git config --global user.name "root"
+
+## packages sorted alphabeticaly
+##
+packages=""
+packages="${packages} squid"
+
+## install packages
+##
+apt-get install -y --no-install-recommends --auto-remove --purge ${packages}
+

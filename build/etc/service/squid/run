@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -x
+
+port=${SQUID_PORT:=3128}
+
+test -z "$TZ" -a -e /etc/timezone && TZ=$(</etc/timezone)
+export TZ
+
+rm -f /run/squid.pid
+
+/usr/sbin/squid -z
+sleep 1
+rm -f /run/squid.pid
+
+#
+# temporarily disabled. running with -a <number> unfortunately yelds error
+# I cannot find bug in debian nor upstream yet. Please change http_port in config file.
+#
+#exec /usr/sbin/squid -N -a $port
+
+/usr/sbin/squid -N
+sleep 2

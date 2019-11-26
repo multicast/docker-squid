@@ -1,0 +1,49 @@
+# =IMAGE=
+
+![Pulls](https://img.shields.io/docker/pulls/=NAMESPACE=/=IMAGE=.svg)
+![Stars](https://img.shields.io/docker/stars/=NAMESPACE=/=IMAGE=.svg)
+
+This [image](https://hub.docker.com/r/mkovac/squid/) contains 
+[squid package](https://packages.debian.org/buster/squid) package.
+
+This image is built daily and in case of any security update, the list of
+packages is updated, commited and this triggers update of docker-hub image
+and all dependant images.
+
+## Quick Usage
+
+Run prebuilt:
+
+    $ docker run --rm -ti =NAMESPACE=/=IMAGE= bash
+
+Or you can clone & build, run `bash` to explore:
+
+    $ git clone https://github.com/multicast/docker-=IMAGE=
+    $ cd docker-=IMAGE=
+    $ docker build -t =IMAGE= .
+    $ docker run --rm -ti =IMAGE= bash
+
+## Compose snippet
+
+    squid:
+      image: =NAMESPACE=/=IMAGE=:latest
+      environment:
+        #SQUID_PORT: 3128
+        #BASE_DEBUG: 9
+
+      ports:
+      - "3128:3128"
+
+      restart: always
+
+      extra_hosts:
+      - "home-router:192.168.0.1"
+      - "my.local.app:192.168.0.2"
+
+      volumes:
+      - /srv/docker/squid:/etc/squid:ro
+      - /var/log/squid:/var/log/squid:rw
+      - /var/spool/squid:/var/spool/squid:rw
+
+# Packages
+
