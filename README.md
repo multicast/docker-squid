@@ -55,14 +55,14 @@ Or you can clone & build, run `bash` to explore:
     ii  adduser                       3.118                       all          add and remove users and groups
     ii  apt                           1.8.2                       amd64        commandline package manager
     ii  apt-utils                     1.8.2                       amd64        package management related utility programs
-    ii  base-files                    10.3+deb10u2                amd64        Debian base system miscellaneous files
+    ii  base-files                    10.3+deb10u3                amd64        Debian base system miscellaneous files
     ii  base-passwd                   3.5.46                      amd64        Debian base system master password and group files
     ii  bash                          5.0-4                       amd64        GNU Bourne Again SHell
     ii  bsdutils                      1:2.33.1-0.1                amd64        basic utilities from 4.4BSD-Lite
     ii  ca-certificates               20190110                    all          Common CA certificates
     ii  coreutils                     8.30-3                      amd64        GNU core utilities
     ii  cron                          3.0pl1-134+deb10u1          amd64        process scheduling daemon
-    ii  curl                          7.64.0-4                    amd64        command line tool for transferring data with URL syntax
+    ii  curl                          7.64.0-4+deb10u1            amd64        command line tool for transferring data with URL syntax
     ii  dash                          0.5.10.2-5                  amd64        POSIX-compliant shell
     ii  debconf                       1.5.71                      all          Debian configuration management system
     ii  debian-archive-keyring        2019.1                      all          GnuPG archive keys of the Debian archive
@@ -71,13 +71,13 @@ Or you can clone & build, run `bash` to explore:
     ii  diffutils                     1:3.7-3                     amd64        File comparison utilities
     ii  dpkg                          1.19.7                      amd64        Debian package management system
     ii  dumb-init                     1.2.2-1.1                   amd64        wrapper script which proxies signals to a child
-    ii  e2fsprogs                     1.44.5-1+deb10u2            amd64        ext2/ext3/ext4 file system utilities
+    ii  e2fsprogs                     1.44.5-1+deb10u3            amd64        ext2/ext3/ext4 file system utilities
     ii  etckeeper                     1.18.10-1                   all          store /etc in git, mercurial, bzr or darcs
     ii  fdisk                         2.33.1-0.1                  amd64        collection of partitioning utilities
     ii  findutils                     4.6.0+git+20190209-2        amd64        utilities for finding files--find, xargs
     ii  gcc-8-base:amd64              8.3.0-6                     amd64        GCC, the GNU Compiler Collection (base package)
-    ii  git                           1:2.20.1-2                  amd64        fast, scalable, distributed revision control system
-    ii  git-man                       1:2.20.1-2                  all          fast, scalable, distributed revision control system (manual pages)
+    ii  git                           1:2.20.1-2+deb10u2          amd64        fast, scalable, distributed revision control system
+    ii  git-man                       1:2.20.1-2+deb10u2          all          fast, scalable, distributed revision control system (manual pages)
     ii  gpgv                          2.2.12-1+deb10u1            amd64        GNU privacy guard - signature verification tool
     ii  grep                          3.3-1                       amd64        GNU grep, egrep and fgrep
     ii  gzip                          1.9-3                       amd64        GNU compression utilities
@@ -101,9 +101,9 @@ Or you can clone & build, run `bash` to explore:
     ii  libcap-ng0:amd64              0.7.9-2                     amd64        An alternate POSIX capabilities library
     ii  libcap2:amd64                 1:2.25-2                    amd64        POSIX 1003.1e capabilities (library)
     ii  libcap2-bin                   1:2.25-2                    amd64        POSIX 1003.1e capabilities (utilities)
-    ii  libcom-err2:amd64             1.44.5-1+deb10u2            amd64        common error description library
-    ii  libcurl3-gnutls:amd64         7.64.0-4                    amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
-    ii  libcurl4:amd64                7.64.0-4                    amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+    ii  libcom-err2:amd64             1.44.5-1+deb10u3            amd64        common error description library
+    ii  libcurl3-gnutls:amd64         7.64.0-4+deb10u1            amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+    ii  libcurl4:amd64                7.64.0-4+deb10u1            amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
     ii  libdb5.3:amd64                5.3.28+dfsg1-0.5            amd64        Berkeley v5.3 Database Libraries [runtime]
     ii  libdbi-perl:amd64             1.642-1+b1                  amd64        Perl Database Interface (DBI)
     ii  libdebconfclient0:amd64       0.249                       amd64        Debian Configuration Management System (C-implementation library)
@@ -111,7 +111,7 @@ Or you can clone & build, run `bash` to explore:
     ii  libelf1:amd64                 0.176-1.1                   amd64        library to read and write ELF files
     ii  liberror-perl                 0.17027-2                   all          Perl module for error/exception handling in an OO-ish way
     ii  libexpat1:amd64               2.2.6-2+deb10u1             amd64        XML parsing C library - runtime library
-    ii  libext2fs2:amd64              1.44.5-1+deb10u2            amd64        ext2/ext3/ext4 file system libraries
+    ii  libext2fs2:amd64              1.44.5-1+deb10u3            amd64        ext2/ext3/ext4 file system libraries
     ii  libfdisk1:amd64               2.33.1-0.1                  amd64        fdisk partitioning library
     ii  libffi6:amd64                 3.2.1-9                     amd64        Foreign Function Interface library runtime
     ii  libgcc1:amd64                 1:8.3.0-6                   amd64        GCC support library
@@ -119,12 +119,12 @@ Or you can clone & build, run `bash` to explore:
     ii  libgdbm-compat4:amd64         1.18.1-4                    amd64        GNU dbm database routines (legacy support runtime version) 
     ii  libgdbm6:amd64                1.18.1-4                    amd64        GNU dbm database routines (runtime version) 
     ii  libgmp10:amd64                2:6.1.2+dfsg-4              amd64        Multiprecision arithmetic library
-    ii  libgnutls30:amd64             3.6.7-4                     amd64        GNU TLS library - main runtime library
+    ii  libgnutls30:amd64             3.6.7-4+deb10u3             amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64           1.35-1                      amd64        GnuPG development runtime library
     ii  libgssapi-krb5-2:amd64        1.17-3                      amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhogweed4:amd64             3.4.1-1                     amd64        low level cryptographic library (public-key cryptos)
-    ii  libicu63:amd64                63.1-6                      amd64        International Components for Unicode
-    ii  libidn2-0:amd64               2.0.5-1                     amd64        Internationalized domain names (IDNA2008/TR46) library
+    ii  libicu63:amd64                63.1-6+deb10u1              amd64        International Components for Unicode
+    ii  libidn2-0:amd64               2.0.5-1+deb10u1             amd64        Internationalized domain names (IDNA2008/TR46) library
     ii  libk5crypto3:amd64            1.17-3                      amd64        MIT Kerberos runtime libraries - Crypto Library
     ii  libkeyutils1:amd64            1.6-6                       amd64        Linux Key Management Utilities (library)
     ii  libkrb5-3:amd64               1.17-3                      amd64        MIT Kerberos runtime libraries
@@ -160,8 +160,8 @@ Or you can clone & build, run `bash` to explore:
     ii  libpython2.7-stdlib:amd64     2.7.16-2+deb10u1            amd64        Interactive high-level object-oriented language (standard library, version 2.7)
     ii  libreadline7:amd64            7.0-5                       amd64        GNU readline and history libraries, run-time libraries
     ii  librtmp1:amd64                2.4+20151223.gitfa8646d.1-2 amd64        toolkit for RTMP streams (shared library)
-    ii  libsasl2-2:amd64              2.1.27+dfsg-1               amd64        Cyrus SASL - authentication abstraction library
-    ii  libsasl2-modules-db:amd64     2.1.27+dfsg-1               amd64        Cyrus SASL - pluggable authentication modules (DB)
+    ii  libsasl2-2:amd64              2.1.27+dfsg-1+deb10u1       amd64        Cyrus SASL - authentication abstraction library
+    ii  libsasl2-modules-db:amd64     2.1.27+dfsg-1+deb10u1       amd64        Cyrus SASL - pluggable authentication modules (DB)
     ii  libseccomp2:amd64             2.3.3-4                     amd64        high level interface to Linux seccomp filter
     ii  libselinux1:amd64             2.8-1+b1                    amd64        SELinux runtime shared libraries
     ii  libsemanage-common            2.8-2                       all          Common files for SELinux policy management libraries
@@ -170,14 +170,14 @@ Or you can clone & build, run `bash` to explore:
     ii  libslang2:amd64               2.3.2-2                     amd64        S-Lang programming library - runtime version
     ii  libsmartcols1:amd64           2.33.1-0.1                  amd64        smart column output alignment library
     ii  libsqlite3-0:amd64            3.27.2-3                    amd64        SQLite 3 shared library
-    ii  libss2:amd64                  1.44.5-1+deb10u2            amd64        command-line interface parsing library
+    ii  libss2:amd64                  1.44.5-1+deb10u3            amd64        command-line interface parsing library
     ii  libssh2-1:amd64               1.8.0-2.1                   amd64        SSH2 client-side library
     ii  libssl1.1:amd64               1.1.1d-0+deb10u2            amd64        Secure Sockets Layer toolkit - shared libraries
     ii  libstdc++6:amd64              8.3.0-6                     amd64        GNU Standard C++ Library v3
-    ii  libsystemd0:amd64             241-7~deb10u2               amd64        systemd utility library
+    ii  libsystemd0:amd64             241-7~deb10u3               amd64        systemd utility library
     ii  libtasn1-6:amd64              4.13-3                      amd64        Manage ASN.1 structures (runtime)
     ii  libtinfo6:amd64               6.1+20181013-2+deb10u2      amd64        shared low-level terminfo library for terminal handling
-    ii  libudev1:amd64                241-7~deb10u2               amd64        libudev shared library
+    ii  libudev1:amd64                241-7~deb10u3               amd64        libudev shared library
     ii  libunistring2:amd64           0.9.10-1                    amd64        Unicode string library for C
     ii  libuuid1:amd64                2.33.1-0.1                  amd64        Universally Unique ID library
     ii  libxml2:amd64                 2.9.4+dfsg1-7+b3            amd64        GNOME XML library
