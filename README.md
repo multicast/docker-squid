@@ -55,7 +55,7 @@ Or you can clone & build, run `bash` to explore:
     ii  adduser                       3.118                       all          add and remove users and groups
     ii  apt                           1.8.2.1                     amd64        commandline package manager
     ii  apt-utils                     1.8.2.1                     amd64        package management related utility programs
-    ii  base-files                    10.3+deb10u5                amd64        Debian base system miscellaneous files
+    ii  base-files                    10.3+deb10u6                amd64        Debian base system miscellaneous files
     ii  base-passwd                   3.5.46                      amd64        Debian base system master password and group files
     ii  bash                          5.0-4                       amd64        GNU Bourne Again SHell
     ii  bsdutils                      1:2.33.1-0.1                amd64        basic utilities from 4.4BSD-Lite
@@ -105,7 +105,7 @@ Or you can clone & build, run `bash` to explore:
     ii  libcurl3-gnutls:amd64         7.64.0-4+deb10u1            amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
     ii  libcurl4:amd64                7.64.0-4+deb10u1            amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
     ii  libdb5.3:amd64                5.3.28+dfsg1-0.5            amd64        Berkeley v5.3 Database Libraries [runtime]
-    ii  libdbi-perl:amd64             1.642-1+b1                  amd64        Perl Database Interface (DBI)
+    ii  libdbi-perl:amd64             1.642-1+deb10u1             amd64        Perl Database Interface (DBI)
     ii  libdebconfclient0:amd64       0.249                       amd64        Debian Configuration Management System (C-implementation library)
     ii  libecap3:amd64                1.0.1-3.2                   amd64        eCAP library
     ii  libelf1:amd64                 0.176-1.1                   amd64        library to read and write ELF files
