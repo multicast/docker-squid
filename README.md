@@ -129,8 +129,8 @@ Or you can clone & build, run `bash` to explore:
     ii  libkeyutils1:amd64            1.6-6                       amd64        Linux Key Management Utilities (library)
     ii  libkrb5-3:amd64               1.17-3                      amd64        MIT Kerberos runtime libraries
     ii  libkrb5support0:amd64         1.17-3                      amd64        MIT Kerberos runtime libraries - Support library
-    ii  libldap-2.4-2:amd64           2.4.47+dfsg-3+deb10u3       amd64        OpenLDAP libraries
-    ii  libldap-common                2.4.47+dfsg-3+deb10u3       all          OpenLDAP common files for libraries
+    ii  libldap-2.4-2:amd64           2.4.47+dfsg-3+deb10u4       amd64        OpenLDAP libraries
+    ii  libldap-common                2.4.47+dfsg-3+deb10u4       all          OpenLDAP common files for libraries
     ii  libltdl7:amd64                2.4.6-9                     amd64        System independent dlopen wrapper for GNU libtool
     ii  liblz4-1:amd64                1.8.3-1                     amd64        Fast LZ compression algorithm library - runtime
     ii  liblzma5:amd64                5.2.4-1                     amd64        XZ-format compression library
