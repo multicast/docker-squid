@@ -143,7 +143,7 @@ Or you can clone & build, run `bash` to explore:
     ii  libnewt0.52:amd64             0.52.20-8                   amd64        Not Erik's Windowing Toolkit - text mode windowing with slang
     ii  libnfnetlink0:amd64           1.0.1-3+b1                  amd64        Netfilter netlink library
     ii  libnghttp2-14:amd64           1.36.0-2+deb10u1            amd64        library implementing HTTP/2 protocol (shared library)
-    ii  libp11-kit0:amd64             0.23.15-2                   amd64        library for loading and coordinating access to PKCS#11 modules - runtime
+    ii  libp11-kit0:amd64             0.23.15-2+deb10u1           amd64        library for loading and coordinating access to PKCS#11 modules - runtime
     ii  libpam-modules:amd64          1.3.1-5                     amd64        Pluggable Authentication Modules for PAM
     ii  libpam-modules-bin            1.3.1-5                     amd64        Pluggable Authentication Modules for PAM - helper binaries
     ii  libpam-runtime                1.3.1-5                     all          Runtime support for the PAM library
