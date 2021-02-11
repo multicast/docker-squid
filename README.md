@@ -182,7 +182,7 @@ Or you can clone & build, run `bash` to explore:
     ii  libuuid1:amd64                2.33.1-0.1                  amd64        Universally Unique ID library
     ii  libxml2:amd64                 2.9.4+dfsg1-7+deb10u1       amd64        GNOME XML library
     ii  libxtables12:amd64            1.8.2-4                     amd64        netfilter xtables library
-    ii  libzstd1:amd64                1.3.8+dfsg-3                amd64        fast lossless compression algorithm
+    ii  libzstd1:amd64                1.3.8+dfsg-3+deb10u1        amd64        fast lossless compression algorithm
     ii  localepurge                   0.7.3.5                     all          reclaim disk space by removing unneeded localizations
     ii  locales                       2.28-10                     all          GNU C Library: National Language (locale) data [support]
     ii  login                         1:4.5-1.1                   amd64        system login tools
