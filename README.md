@@ -213,8 +213,8 @@ Or you can clone & build, run `bash` to explore:
     ii  runit-helper                  2.8.6                       all          dh-runit implementation detail
     ii  sed                           4.7-1                       amd64        GNU stream editor for filtering/transforming text
     ii  sensible-utils                0.0.12                      all          Utilities for sensible alternative selection
-    ii  squid                         4.6-1+deb10u4               amd64        Full featured Web Proxy cache (HTTP proxy)
-    ii  squid-common                  4.6-1+deb10u4               all          Full featured Web Proxy cache (HTTP proxy) - common files
+    ii  squid                         4.6-1+deb10u5               amd64        Full featured Web Proxy cache (HTTP proxy)
+    ii  squid-common                  4.6-1+deb10u5               all          Full featured Web Proxy cache (HTTP proxy) - common files
     ii  squid-langpack                20190110-1                  all          Localized error pages for Squid
     ii  sysuser-helper                1.3.3                       all          dh-sysuser implementation detail
     ii  sysvinit-utils                2.93-8                      amd64        System-V-like utilities
