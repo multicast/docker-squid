@@ -180,7 +180,7 @@ Or you can clone & build, run `bash` to explore:
     ii  libudev1:amd64                241-7~deb10u8               amd64        libudev shared library
     ii  libunistring2:amd64           0.9.10-1                    amd64        Unicode string library for C
     ii  libuuid1:amd64                2.33.1-0.1                  amd64        Universally Unique ID library
-    ii  libxml2:amd64                 2.9.4+dfsg1-7+deb10u3       amd64        GNOME XML library
+    ii  libxml2:amd64                 2.9.4+dfsg1-7+deb10u4       amd64        GNOME XML library
     ii  libxtables12:amd64            1.8.2-4                     amd64        netfilter xtables library
     ii  libzstd1:amd64                1.3.8+dfsg-3+deb10u2        amd64        fast lossless compression algorithm
     ii  localepurge                   0.7.3.5                     all          reclaim disk space by removing unneeded localizations
